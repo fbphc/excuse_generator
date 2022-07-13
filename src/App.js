@@ -2,24 +2,25 @@
 import "./App.css";
 import React, { useState } from "react";
 import Button from 'react-bootstrap/Button';
+const dataset = [
+  "Wifi problem",
+  "No electricity",
+  "I'm sick",
+  "Bathroom-break",
+  "The meeting is not working",
+  "Clashing-meetings",
+  "I didn't know",
+  "Timezone differences",
+  "Didn't get the invite",
+  "Blame it on the family/the pets /the spouse/the boogie",
+];
+
 
 function App() {
   const [excuse, SetExcuse] = useState("Sorry but...");
   const [excuseText, setExcuseText] = useState("");
 
-  const dataset = [
-    "Wifi problem",
-    "No electricity",
-    "I'm sick",
-    "Bathroom-break",
-    "The meeting is not working",
-    "Clashing-meetings",
-    "I didn't know",
-    "Timezone differences",
-    "Didn't get the invite",
-    "Blame it on the family/the pets /the spouse/the boogie",
-  ];
-
+ 
   function dajeForte() {
     const randomNumber = Math.floor(Math.random() * dataset.length);
     SetExcuse(dataset[randomNumber]);
