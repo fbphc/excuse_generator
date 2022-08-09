@@ -5,8 +5,26 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  background: url(./img/to-forget-g98f90a116_1920.jpg)
+  background: url(./img/ex.jpg) center / cover no-repeat;
+  font-family: Helvetica, Arial, sans-serif;
 }
-.main-container{
+.main-container {
   background-color: rgba(255, 255, 255, 0.9);
+}
+h1 {
+  color: #bd2600;
+  text-decoration: underline overline dashed;
+  letter-spacing: 0.6rem;
+}
+.input {
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid #d95469;
+  outline: none;
+}
+.excuse {
+  color: #bd2600;
+}
+.line {
+  border: 1px solid #bd2600;
 }
