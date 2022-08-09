@@ -54,10 +54,6 @@ function App() {
           </Button>
         </form>
         <div className="text-center mt-4 mb-3 mx-auto w-75">
-          <h4>Our Excuses:</h4>
-          {dataset.map((item) => (
-            <h5 className="d-inline">{item} / </h5>
-          ))}
 
           <h4 className="mt-2 usEx">Your Excuses:</h4>
           {userEx.map((item) => (
